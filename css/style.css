@@ -1,0 +1,190 @@
+*{
+	margin: 0px;padding: 0px;
+}
+
+body{
+	background: #ffffff;
+}
+header{
+	text-transform: uppercase;
+}
+.navbar-header{
+	height: 80px;
+}
+.logo{
+    float: left;
+    height: 80px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+.navbar-nav a{
+	color: #000000;
+	font-weight: bold;
+}
+/*.banner{
+	margin-bottom: 10px;
+}*/
+.title-box {
+    height: 50px;
+    width: 140px;
+    background: #1b75bc;
+    position: relative;
+    margin: 10px 0px;
+    line-height: 50px;
+    display: flex; 
+}
+.p-title{
+	color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+	z-index: 2;
+}
+.title-box:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-bottom: 25px solid white;
+    border-left: 25px solid #1b75bc;
+    width: 0;
+}
+.title-box:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-top: 25px solid white;
+    border-left: 25px solid #1b75bc;
+    width: 0;
+}
+.ico-title{
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.ico-game{
+	background: url(../images/ico-game.png) no-repeat center;
+}
+.ico-new{
+	background: url(../images/ico-new.png) no-repeat center;
+}
+.game-item,.new-item{
+	width: 100%;
+	position: relative;
+}
+.game-info{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: #231f20;
+	color: #ffffff;
+	display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+.game-name{
+	display: block;
+	border: 2px solid #ffffff;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100px;
+	width: 40%;
+	padding: 0px 20px;
+	cursor: pointer;
+}
+.btn-dl{
+	padding: 0px 20px;
+	border: 2px solid #ffffff;
+	border-radius: 100px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.description-game p{
+	text-align: justify;
+}
+.img-game{
+	margin-bottom: 10px;
+}
+.new-title{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 0px 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.new-title p{
+	color: #ffffff;
+	font-weight: bold;
+}
+.hot{
+	padding: 5px;
+	background: red
+}
+.sidebar{
+	margin-top: 70px;
+}
+.box-video-container{
+	background: #231f20;
+	position: relative;
+	margin: 20px 0px;
+}
+.head-box-video{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #414142;
+	color: #f7941d;
+}
+.title-video{
+	display: inline-block;
+	padding: 0 20px;
+	background: #231f20;
+}
+.lst-video{
+	padding: 20px;
+}
+.lst-video p{
+	color: #ffffff;
+	text-align: center;
+}
+.nav-bottom{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #d1d3d4;
+}
+.nav-bottom ul{
+	display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-bottom ul>li{
+	padding: 0 10px;
+}
+.nav-bottom ul>li>a{
+	color: #000000;
+	cursor: pointer;
+	font-weight: bold;
+}
+.com-name{
+	display: block;
+	clear: both;
+}
+footer{
+	padding: 20px 0px;
+	position: relative;
+}
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+	    height: 80px;
+	    line-height: 80px;
+	    padding: 0px 20px;
+	}
+}
