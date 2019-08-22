@@ -10,6 +10,18 @@ header{
 }
 .navbar-header{
 	height: 80px;
+	border-bottom: 1px solid #fbfbfb;
+}
+.nav-toggle{
+	position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 38px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: rotate(90deg);
 }
 .logo{
     float: left;
@@ -177,6 +189,18 @@ header{
 	display: block;
 	clear: both;
 }
+.sb-box-new-title{
+	background: #1b75bc;
+	display: flex;
+	padding: 5px;
+}
+.title1{
+	color: #ffffff;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
 footer{
 	padding: 20px 0px;
 	position: relative;
@@ -186,5 +210,40 @@ footer{
 	    height: 80px;
 	    line-height: 80px;
 	    padding: 0px 20px;
+	}
+	.nav-toggle{
+		display: none;
+	}
+}
+@media (max-width: 767px){
+	.lst-video {
+	    padding: 0px;
+	}
+	.logo {
+		display: block;
+	    float: none;
+	    height: 80px;
+	    padding: 0px;
+	    font-size: 18px;
+	    line-height: 80px;
+	    width: 160px;
+	    margin: 0 auto;
+	}
+	.navbar-nav{
+		background: #ffffff;
+		margin: 0px;
+		position: relative;
+    	z-index: 10;
+    	display: none;
+	}
+	.nav-bottom{
+		font-size: 11px;
+	}
+	.nav-bottom ul>li {
+	     padding: 0 5px;
+	}
+	.btn-dl, .game-name{
+	    padding: 0px 5px;
+	    text-align: center;
 	}
 }
