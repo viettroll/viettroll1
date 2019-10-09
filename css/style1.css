@@ -4,7 +4,7 @@
   src: url(../fonts/UTM Colossalis.ttf);
 }
 body{
-	 font-family: UTM;
+   font-family: UTM;
 }
 
 .clearfix::after {
@@ -91,27 +91,27 @@ body{
 }
 
 .icon-big {
-  background-image: url(../images/spritebig.png);
+  background-image: url(../images2/spr.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
 .icon-account-big {
-  width: 103px;
-  height: 103px;
-  background-position: -5px -5px;
+  width: 160px;
+  height: 160px;
+  background-position: 0px 0px;
 }
 
 .icon-card-big {
-  width: 130px;
-  height: 96px;
-  background-position: -5px -118px;
+  width: 160px;
+  height: 160px;
+  background-position: -210px 0px;
 }
 
 .icon-garena-big {
-  width: 114px;
-  height: 86px;
-  background-position: -118px -5px;
+  width: 160px;
+  height: 160px;
+  background-position: -640px 5px;
 }
 
 .icon-search-big {
@@ -121,9 +121,9 @@ body{
 }
 
 .icon-vip-big {
-  width: 103px;
-  height: 103px;
-  background-position: -242px -5px;
+  width: 160px;
+  height: 160px;
+  background-position: -424px 0px;
 }
 
 .icon-follow-big {
@@ -480,8 +480,8 @@ footer p a:hover, #footer ul a:hover, #footer ol a:hover, #footer dl a:hover {
 
 .card-support i {
   display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   -webkit-transition: -webkit-transform .25s ease;
   transition: -webkit-transform .25s ease;
   transition: transform .25s ease;
