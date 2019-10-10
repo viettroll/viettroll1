@@ -554,7 +554,7 @@ footer p a:hover,
     line-height: 50px;
     padding: 0 15px;
     font-size: 22px;
-    color: #fff !important;
+    color: #fff;
     position: relative;
     margin-bottom: 30px;
     text-align: center;
@@ -748,4 +748,30 @@ textarea:-moz-placeholder {
 }
 .block article a {
     color: #707070;
+}
+.card-line:hover{
+    color: #fff;
+}
+.card-line.err-noti{
+    background: #fff534;
+    color: #bd0500;
+}
+.err-noti .icon-follow-big{
+    background: url(../images2/ico-warning.png) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 36px;
+}
+.icon-angle-arrow{
+    background: url(../images2/arrow.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.err-noti .icon-angle-arrow{
+    background: url(../images2/arrow2.png) no-repeat;
+    background-size: 100%;
+}
+a:hover{
+  text-decoration: none;
 }
