@@ -775,3 +775,179 @@ textarea:-moz-placeholder {
 a:hover{
   text-decoration: none;
 }
+.page-baoloi{
+    width: 768px;
+    margin: 20px auto;
+}
+.tt-row {
+    margin-bottom: 15px;
+}
+.tt-row {
+    position: relative;
+}
+.txt-err {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+.mui-select {
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.mui-select>select {
+    display: block;
+    height: 32px;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…M9IjAsMCAxMCwwIDUsNiIgc3R5bGU9ImZpbGw6cmdiYSgwLDAsMCwuMjQpOyIvPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    cursor: pointer;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    font-family: inherit;
+    line-height: inherit;
+    padding: 0 25px 0 0;
+}
+.mui-select>label {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    overflow-x: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mui-textfield {
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.mui-textfield>input {
+    padding-right: 30px;
+}
+.mui-textfield>input {
+    height: 32px;
+}
+.mui-textfield>input, .mui-textfield>textarea {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    outline: 0;
+    width: 100%;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: inherit;
+    background-image: none;
+}
+
+.mui-textfield label {
+    opacity: 0;
+    -webkit-transition: top .333s ease,opacity .333s ease;
+    -o-transition: .333s ease top,.333s ease opacity;
+    transition: top .333s ease,opacity .333s ease;
+}
+.mui-textfield--float-label>label {
+    position: absolute;
+    -webkit-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    transform: translateY(15px);
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(0,0,0,.26);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    cursor: text;
+    pointer-events: none;
+}
+.mui-textfield>label {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    overflow-x: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box-note {
+    padding: 12px;
+    background: #f9f5f5;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.box-tb-btn {
+    text-align: center;
+}
+.mui-btn {
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.87);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    height: 36px;
+    padding: 0 26px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-image: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    font-family: inherit;
+    letter-spacing: .03em;
+    position: relative;
+    overflow: hidden;
+}
+.box-tb-btn .mui-btn {
+    margin: 0 6px;
+}
+.box-tb-btn .mui-btn {
+    width: 45%;
+}
+.f-btn-orage {
+    background: #c30a0d;
+    color: #fff;
+}
